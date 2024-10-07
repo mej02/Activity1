@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 229);
 }
+
 
 h1 {
     color: #000000;
     font-size: 220px;
     font-family: Helvetica;
     text-align: left;
-    margin-top: 150px; /* Adjusted to push down the heading below the navbar */
+    margin-top: 150px;
     position: relative;
 }
 
@@ -16,12 +17,18 @@ h2 {
     font-size: 20px;
     font-family: Helvetica;
 }
-
+.bground{
+    height: 300px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
 .mylogo {
     height: 300px;
     max-width: 100%;
     padding-left: 20px;
     padding-top: 15px;
+    
 }
 
 header {
