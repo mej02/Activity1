@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Talacay</title>
-    <link rel="icon" href="{% static 'C:\Users\fafaj\Desktop\Talacay\Talacay\static\images\Talacay.ico' %}">
-    <link rel="stylesheet" type ="text/css" href="{% static 'css/base.css' %}">
+    <link rel="icon" href="{% static 'images/Talacay.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
 </head>
 <body>
-    {% include 'app/navbar.html'%}
-{% block content %}
 
-{% endblock content %}
-<script src="{% static 'js/base.js'%}"></script>
+    <!-- {% include 'app/navbar.html' %}  Make sure this line is included -->
+
+    {% block content %}
+    {% endblock content %}
 </body>
 </html>

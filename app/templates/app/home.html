@@ -1,8 +1,61 @@
 {% extends 'app/base.html' %}
 {% load static %}
 {% block content %}
-    <img class="bground" src="{% static 'images/11.jpg'%}">
-<div class="content-container">
-    <h1>Hi, <br> I'm Jem.</h1>
+
+<div class="container">
+    <div class="counter"><p>0</p></div>
+    
+    <div class="header">
+        <h1>work?</h1>
+        
+    </div>
+    
+    <section  class="hero">
+        <div class="overlay"></div>
+
+        <nav>
+            <div class="nav-col">
+                <div class="nav-items">
+                    <a href="{% url 'home' %}">Talacay, Jemmanuel A.</a>
+                    
+                    <p>IT Student</p>
+                    <p>I'm working on 3D animation and short animated films.</p>
+                    
+                </div>
+                <div class="nav-items">
+                    <p>Personal Portfolio</p>
+                    <p>23 years old</p>
+                    <p>Freelancer</p>
+                    
+                </div>
+            </div>
+            <div class="nav-col">
+                <div class="nav-items">
+                    <p>Contact</p>
+                    <p>jem@gmail.com</p>
+                    <p>0984-869-5698</p>
+                </div>
+                <div class="nav-items">
+                    <p>Social Media</p>
+                    <p>Instagram</p>
+                    <p>LinkedIn</p>
+                    
+                </div>
+                <div class="nav-items">
+                    <p>Manila, Philippines</p>
+                </div>
+            </div>    
+        
+            </nav>
+
+       
+
+        <div class="hero-img">
+            <img src="static/images/bground.png" alt="jem" />
+        </div>
+    </section>
 </div>
-{% endblock content %}
+<script src="static/js/base.js"></script>
+</body>
+</html>
+{% endblock content%}
